@@ -1,0 +1,26 @@
+Table,Row,Description
+application_{train|test}.csv,TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)"
+application_{train|test}.csv,SK_ID_CURR,ID of loan in our sample
+previous_application.csv,SK_ID_CURR,ID of loan in our sample
+credit_card_balance.csv,SK_ID_CURR,ID of loan in our sample
+POS_CASH_balance.csv,SK_ID_CURR,ID of loan in our sample
+bureau.csv,SK_ID_CURR,"ID of loan in our sample - one loan in our sample can have 0,1,2 or more related previous credits in credit bureau "
+installments_payments.csv,SK_ID_CURR,ID of loan in our sample
+application_{train|test}.csv,EXT_SOURCE_1,Normalized score from external data source
+application_{train|test}.csv,EXT_SOURCE_2,Normalized score from external data source
+application_{train|test}.csv,EXT_SOURCE_3,Normalized score from external data source
+application_{train|test}.csv,AMT_INCOME_TOTAL,Income of the client
+previous_application.csv,AMT_CREDIT,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT"
+application_{train|test}.csv,AMT_CREDIT,Credit amount of the loan
+previous_application.csv,AMT_ANNUITY,Annuity of previous application
+application_{train|test}.csv,AMT_ANNUITY,Loan annuity
+bureau.csv,AMT_ANNUITY,Annuity of the Credit Bureau credit
+previous_application.csv,AMT_GOODS_PRICE,Goods price of good that client asked for (if applicable) on the previous application
+application_{train|test}.csv,AMT_GOODS_PRICE,For consumer loans it is the price of the goods for which the loan is given
+application_{train|test}.csv,DAYS_BIRTH,Client's age in days at the time of application
+application_{train|test}.csv,DAYS_EMPLOYED,How many days before the application the person started current employment
+application_{train|test}.csv,CODE_GENDER,Gender of the client
+application_{train|test}.csv,NAME_INCOME_TYPE,"Clients income type (businessman, working, maternity leave,)"
+application_{train|test}.csv,NAME_EDUCATION_TYPE,Level of highest education the client achieved
+application_{train|test}.csv,NAME_FAMILY_STATUS,Family status of the client
+application_{train|test}.csv,OCCUPATION_TYPE,What kind of occupation does the client have
