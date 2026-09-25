@@ -19,3 +19,5 @@ data/
 .env
 .DS_Store
 Thumbs.db
+
+AGENTS.md
